@@ -14,3 +14,5 @@ require (
 	golang.org/x/crypto v0.6.0
 	golang.org/x/net v0.7.0 // indirect
 )
+
+replace github.com/jcmturner/gokrb5 latest => github.com/0xjbb/gokrb5 latest
