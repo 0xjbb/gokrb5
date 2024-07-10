@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/0xjbb/gokrb5/v8/test/testdata"
-	"github.com/0xjbb/rpc/v2/mstypes"
+	"github.com/jcmturner/rpc/v2/mstypes"
 	"github.com/stretchr/testify/assert"
 )
 

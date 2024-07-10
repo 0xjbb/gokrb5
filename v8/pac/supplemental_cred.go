@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xjbb/rpc/v2/mstypes"
-	"github.com/0xjbb/rpc/v2/ndr"
+	"github.com/jcmturner/rpc/v2/mstypes"
+	"github.com/jcmturner/rpc/v2/ndr"
 )
 
 const (

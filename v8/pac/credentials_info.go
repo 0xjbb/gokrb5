@@ -8,8 +8,8 @@ import (
 	"github.com/0xjbb/gokrb5/v8/crypto"
 	"github.com/0xjbb/gokrb5/v8/iana/keyusage"
 	"github.com/0xjbb/gokrb5/v8/types"
-	"github.com/0xjbb/rpc/v2/mstypes"
-	"github.com/0xjbb/rpc/v2/ndr"
+	"github.com/jcmturner/rpc/v2/mstypes"
+	"github.com/jcmturner/rpc/v2/ndr"
 )
 
 // https://msdn.microsoft.com/en-us/library/cc237931.aspx
