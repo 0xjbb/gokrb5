@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xjbb/gofork/encoding/asn1"
+	"github.com/jcmturner/gofork/encoding/asn1"
 	"github.com/0xjbb/gokrb5/v8/asn1tools"
 	"github.com/0xjbb/gokrb5/v8/iana"
 	"github.com/0xjbb/gokrb5/v8/iana/asnAppTag"

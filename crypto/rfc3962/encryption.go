@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/0xjbb/aescts.v1"
+	"gopkg.in/jcmturner/aescts.v1"
 	"gopkg.in/0xjbb/gokrb5.v7/crypto/common"
 	"gopkg.in/0xjbb/gokrb5.v7/crypto/etype"
 )
