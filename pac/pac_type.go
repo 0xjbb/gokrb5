@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/keyusage"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
-	"gopkg.in/jcmturner/rpc.v1/mstypes"
+	"gopkg.in/0xjbb/gokrb5.v7/crypto"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/keyusage"
+	"gopkg.in/0xjbb/gokrb5.v7/types"
+	"gopkg.in/0xjbb/rpc.v1/mstypes"
 )
 
 const (

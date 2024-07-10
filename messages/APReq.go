@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jcmturner/gofork/encoding/asn1"
-	"gopkg.in/jcmturner/gokrb5.v7/asn1tools"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/iana"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/errorcode"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/keyusage"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/msgtype"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/krberror"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
+	"github.com/0xjbb/gofork/encoding/asn1"
+	"gopkg.in/0xjbb/gokrb5.v7/asn1tools"
+	"gopkg.in/0xjbb/gokrb5.v7/crypto"
+	"gopkg.in/0xjbb/gokrb5.v7/iana"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/asnAppTag"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/errorcode"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/keyusage"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/msgtype"
+	"gopkg.in/0xjbb/gokrb5.v7/keytab"
+	"gopkg.in/0xjbb/gokrb5.v7/krberror"
+	"gopkg.in/0xjbb/gokrb5.v7/types"
 )
 
 type marshalAPReq struct {

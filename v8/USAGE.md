@@ -6,7 +6,7 @@ described [here](https://web.mit.edu/kerberos/krb5-latest/doc/admin/conf_files/k
 Config instances can be created by loading from a file path or by passing a string, io.Reader or bufio.Scanner to the 
 relevant method:
 ```go
-import "github.com/jcmturner/gokrb5/v8/config"
+import "github.com/0xjbb/gokrb5/v8/config"
 cfg, err := config.Load("/path/to/config/file")
 cfg, err := config.NewFromString(krb5Str) //String must have appropriate newline separations
 cfg, err := config.NewFromReader(reader)
@@ -15,7 +15,7 @@ cfg, err := config.NewFromScanner(scanner)
 ### Keytab files
 Standard keytab files can be read from a file or from a slice of bytes:
 ```go
-import 	"github.com/jcmturner/gokrb5/v8/keytab"
+import 	"github.com/0xjbb/gokrb5/v8/keytab"
 ktFromFile, err := keytab.Load("/path/to/file.keytab")
 ktFromBytes, err := keytab.Parse(b)
 
@@ -27,7 +27,7 @@ ktFromBytes, err := keytab.Parse(b)
 **Create** a client instance with either a password or a keytab.
 A configuration must also be passed. Additionally optional additional settings can be provided.
 ```go
-import 	"github.com/jcmturner/gokrb5/v8/client"
+import 	"github.com/0xjbb/gokrb5/v8/client"
 cl := client.NewWithPassword("username", "REALM.COM", "password", cfg)
 cl := client.NewWithKeytab("username", "REALM.COM", kt, cfg)
 ```
@@ -206,7 +206,7 @@ The ``httpServer.go`` source file in the examples directory shows how this can b
 
 ##### Validating Users and Accessing Users' Details
 If authentication succeeds then the request's context will have a credentials objected added to it.
-This object implements the ``github.com/jcmturner/goidentity/identity`` interface.
+This object implements the ``github.com/0xjbb/goidentity/identity`` interface.
 If Microsoft Active Directory is used as the KDC then additional ADCredentials are available in the 
 ``credentials.Attributes`` map under the key ``credentials.AttributeKeyADCredentials``. 
 For example the SIDs of the users group membership are available and can be used by your application for authorization.
@@ -236,7 +236,7 @@ if creds != nil && creds.Authenticated() {
 #### Generic Kerberised Service - Validating Client Details
 To validate the AP_REQ sent by the client on the service side call this method:
 ```go
-import 	"github.com/jcmturner/gokrb5/v8/service"
+import 	"github.com/0xjbb/gokrb5/v8/service"
 s := service.NewSettings(&kt) // kt is a keytab and optional settings can also be provided.
 if ok, creds, err := service.VerifyAPREQ(&APReq, s); ok {
         // Perform application specific actions

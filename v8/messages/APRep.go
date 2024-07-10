@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/jcmturner/gokrb5/v8/iana/asnAppTag"
-	"github.com/jcmturner/gokrb5/v8/iana/msgtype"
-	"github.com/jcmturner/gokrb5/v8/krberror"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/0xjbb/gofork/encoding/asn1"
+	"github.com/0xjbb/gokrb5/v8/iana/asnAppTag"
+	"github.com/0xjbb/gokrb5/v8/iana/msgtype"
+	"github.com/0xjbb/gokrb5/v8/krberror"
+	"github.com/0xjbb/gokrb5/v8/types"
 )
 
 // APRep implements RFC 4120 KRB_AP_REP: https://tools.ietf.org/html/rfc4120#section-5.5.2.

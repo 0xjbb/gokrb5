@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/0xjbb/gokrb5/v8/messages"
+	"github.com/0xjbb/gokrb5/v8/types"
 )
 
 const (

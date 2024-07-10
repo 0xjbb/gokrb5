@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/keyusage"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
-	"gopkg.in/jcmturner/rpc.v1/mstypes"
-	"gopkg.in/jcmturner/rpc.v1/ndr"
+	"gopkg.in/0xjbb/gokrb5.v7/crypto"
+	"gopkg.in/0xjbb/gokrb5.v7/iana/keyusage"
+	"gopkg.in/0xjbb/gokrb5.v7/types"
+	"gopkg.in/0xjbb/rpc.v1/mstypes"
+	"gopkg.in/0xjbb/rpc.v1/ndr"
 )
 
 // https://msdn.microsoft.com/en-us/library/cc237931.aspx

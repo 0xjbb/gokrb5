@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/jcmturner/gokrb5/v8/iana/patype"
+	"github.com/0xjbb/gofork/encoding/asn1"
+	"github.com/0xjbb/gokrb5/v8/iana/patype"
 )
 
 // PAData implements RFC 4120 types: https://tools.ietf.org/html/rfc4120#section-5.2.7
