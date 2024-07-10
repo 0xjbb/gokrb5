@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/0xjbb/gofork/encoding/asn1"
-	"github.com/0xjbb/goidentity/v6"
+	"github.com/jcmturner/gofork/encoding/asn1"
+	"github.com/jcmturner/goidentity/v6"
 	"github.com/0xjbb/gokrb5/v8/client"
 	"github.com/0xjbb/gokrb5/v8/credentials"
 	"github.com/0xjbb/gokrb5/v8/gssapi"
@@ -230,9 +230,9 @@ const (
 	spnegoNegTokenRespReject = "Negotiate oQcwBaADCgEC"
 	// spnegoNegTokenRespIncompleteKRB5 - Response token specifying incomplete context and KRB5 as the supported mechtype.
 	spnegoNegTokenRespIncompleteKRB5 = "Negotiate oRQwEqADCgEBoQsGCSqGSIb3EgECAg=="
-	// sessionCredentials is the session value key holding the credentials 0xjbb/goidentity/Identity object.
+	// sessionCredentials is the session value key holding the credentials jcmturner/goidentity/Identity object.
 	sessionCredentials = "github.com/0xjbb/gokrb5/v8/sessionCredentials"
-	// ctxCredentials is the SPNEGO context key holding the credentials 0xjbb/goidentity/Identity object.
+	// ctxCredentials is the SPNEGO context key holding the credentials jcmturner/goidentity/Identity object.
 	ctxCredentials = "github.com/0xjbb/gokrb5/v8/ctxCredentials"
 	// HTTPHeaderAuthRequest is the header that will hold authn/z information.
 	HTTPHeaderAuthRequest = "Authorization"

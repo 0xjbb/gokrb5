@@ -2,7 +2,7 @@
 package asn1tools
 
 import (
-	"github.com/0xjbb/gofork/encoding/asn1"
+	"github.com/jcmturner/gofork/encoding/asn1"
 )
 
 // MarshalLengthBytes returns the ASN1 encoded bytes for the length 'l'

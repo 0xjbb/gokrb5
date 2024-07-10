@@ -18,7 +18,7 @@ import (
 	"testing"
 
 	"github.com/gorilla/sessions"
-	"github.com/0xjbb/goidentity/v6"
+	"github.com/jcmturner/goidentity/v6"
 	"github.com/0xjbb/gokrb5/v8/client"
 	"github.com/0xjbb/gokrb5/v8/config"
 	"github.com/0xjbb/gokrb5/v8/keytab"

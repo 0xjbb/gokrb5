@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xjbb/dnsutils/v2"
+	"github.com/jcmturner/dnsutils/v2"
 )
 
 // GetKDCs returns the count of KDCs available and a map of KDC host names keyed on preference order.
